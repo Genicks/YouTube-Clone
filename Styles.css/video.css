@@ -57,11 +57,10 @@
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
     padding-bottom: 40px;
-
+    
 }
 @media (max-width: 800px) {
     .video-grid{

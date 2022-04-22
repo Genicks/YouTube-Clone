@@ -57,8 +57,26 @@
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
     padding-bottom: 40px;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> parent of b7e942e (udated css)
+}
+@media (max-width: 800px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 801px) and (max-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1000px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

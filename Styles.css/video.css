@@ -59,11 +59,7 @@
     display: grid;
     column-gap: 16px;
     row-gap: 40px;
-    padding-bottom: 40px;
-<<<<<<< HEAD
-=======
-    
->>>>>>> parent of b7e942e (udated css)
+    padding-bottom: 40px; 
 }
 @media (max-width: 800px) {
     .video-grid{

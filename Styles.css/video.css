@@ -1,3 +1,12 @@
+.video-section{
+    padding-top: 81px;
+    padding-left: 96px;
+    padding-right: 24px;;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+
 .thumbnail{
     width: 100%;
 }
@@ -53,4 +62,19 @@
     row-gap: 40px;
     padding-bottom: 40px;
 
+}
+@media (max-width: 750px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 751px) and (max-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1000px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

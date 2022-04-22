@@ -1,20 +1,21 @@
 .sidebar{
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     top: 55px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 72px;    
     z-index: 200;
     padding-top: 5px;
 }
 .sidebar-link{
-    height: 76px;
+    height: 74px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+
 }
 .sidebar-link:hover{
     background-color: rgb(235, 235, 235);

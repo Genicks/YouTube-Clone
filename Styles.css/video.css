@@ -61,17 +61,17 @@
     row-gap: 40px;
     padding-bottom: 40px; 
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .video-grid{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (min-width: 801px) and (max-width:999px){
+@media (min-width: 901px) and (max-width:1499px){
     .video-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media (min-width:1000px) {
+@media (min-width:1500px) {
     .video-grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }

@@ -3,5 +3,11 @@ footer{
     height: 200px;
     margin-left: 72px;
     color: black;
-    padding: 5px;
+    padding: 10px 20px;
+}
+span{
+    color: crimson;
+}
+.apros{
+    color: blue;
 }

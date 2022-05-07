@@ -28,3 +28,8 @@
     font-family: roboto, Arial;
     font-size: 10px;
 }
+.mobile-bottom-bar img,
+.mobile-bottom-bar{
+    width: 0;
+    height: 0;
+}

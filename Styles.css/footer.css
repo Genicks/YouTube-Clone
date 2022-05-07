@@ -1,6 +1,10 @@
 footer{
-    background-color: white;
-    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    z-index: 1;
+    background-color:rgb(200, 200, 200);
     margin-left: 72px;
     color: black;
     padding: 10px 20px;
